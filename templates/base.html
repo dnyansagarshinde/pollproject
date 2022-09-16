@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Poll App by KS</title>
+		<style>
+			* {font-size:30px;}
+			.nav { background-color:coral; }
+			.nav a { color:white; text-decoration:none; margin:80px; }
+			textarea { resize:none; }
+		</style>
+	</head>	
+	<body>
+		<center>
+		<div class="nav">
+			<a href="{%  url  'home'   %}">Home</a>
+			<a href="{%  url  'create'   %}">Create</a>
+		</div>
+		{%  block content  %}
+		{%  endblock %}
+		</center>
+	</body>
+</html>
